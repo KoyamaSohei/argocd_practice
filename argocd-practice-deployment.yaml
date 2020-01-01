@@ -14,7 +14,7 @@ spec:
         app: argocd-practice
     spec:
       containers:
-      - image: nginx:1.17
+      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
         name: argocd-practice
         ports:
         - containerPort: 80
